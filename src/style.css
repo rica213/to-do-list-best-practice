@@ -56,7 +56,7 @@ main {
   flex-grow: 7;
 }
 
-.fa-ellipsis-v ,
+.fa-ellipsis-v,
 .fa-trash {
   align-self: center;
   flex-grow: 2;
