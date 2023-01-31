@@ -21,7 +21,6 @@ main {
 }
 
 .title {
-  border-bottom: 1px solid #c5c5c5;
   width: 99%;
   color: gray;
   padding-left: 0.25rem;
@@ -31,7 +30,6 @@ main {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid #c5c5c5;
 }
 
 #new-task {
@@ -43,28 +41,24 @@ main {
   border: none;
 }
 
+.fa {
+  padding-right: 1rem;
+}
+
 .fa-arrow-right {
   position: absolute;
   top: 35%;
   right: 0;
   color: #c5c5c5;
-  padding-right: 1rem;
 }
 
 .description {
   flex-grow: 7;
 }
 
-.fa-ellipsis-v {
-  align-self: center;
-  padding-right: 1rem;
-  flex-grow: 2;
-  text-align: right;
-}
-
+.fa-ellipsis-v,
 .fa-trash {
   align-self: center;
-  padding-right: 1rem;
   flex-grow: 2;
   text-align: right;
 }
@@ -77,7 +71,6 @@ main {
 .list-tasks li {
   display: flex;
   list-style: none;
-  border-bottom: 1px solid #c5c5c5;
 }
 
 .clear-tasks {
@@ -93,4 +86,10 @@ main {
   filter: contrast(0.5);
   color: #000;
   cursor: pointer;
+}
+
+.title,
+.new-task-container,
+.list-tasks li {
+  border-bottom: 1px solid #c5c5c5;
 }
